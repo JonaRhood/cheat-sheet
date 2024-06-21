@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    padding: 25px;
+    color: blueviolet;
+}
+
+table {
+    width: 700px;
+    box-sizing: border-box;
+}
+
+table, thead, tbody, tr {
+    border: 2px solid purple;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: pink;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+}
+
+td {
+    padding: 5px;
+    border-bottom: 1px solid purple;
+    align-content: center;
+}
+
+tbody tr:last-of-type td {
+    border: 0;
+}
+
+.code {
+    background-color: rgb(245, 240, 233);
+}
